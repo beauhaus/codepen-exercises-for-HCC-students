@@ -15,7 +15,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
 
-
     <script>
         !(function () {
             $(document).ready(function () {
@@ -44,10 +43,10 @@
                 });
                 /**********Directions TEXT**********/
                 var steps = {
-                    step1: "Highlight *COMMENTS* line and press \"ctrl + /\"    (question mark key)",
-                    step2: "Put your right foot out",
-                    step3: "Put your right foot in",
-                    step4: "And you shake it all about",
+                    step1: "In the HTML box, highlight the first grey text line and press \"ctrl + /\"  (the \"?\"- key)",
+                    step2: "Type an opening <p> tag and closing </p> tag around all of this text.  --What has changed?",
+                    step3: "In the CSS box type: \"header  {\r\n    padding: 5%;\r\n}\"",
+                    step4: "Now \"ctrl+/\", or \"uncomment\" the next text and put an opening <h1> tag and a closing </h1> tag around that text",
                     step5: "Do the Hokey-Pokey and you turn yourself around",
                     step6: "*CLAP* That's what it's all about"
                 };
@@ -124,7 +123,7 @@
             grid-column: 1/-1;
             /* width: 100vw; */
             text-align: center;
-            font-size: 30px;
+            font-size: 20px;
             font-weight: lighter;
             color: white;
         }
@@ -180,14 +179,34 @@
             width: 100vw;
             height: 100vh;
             display: grid;
-            border: 2px ∫dashed transparent;
+            border: 2px dashed transparent;
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: auto;
             grid-gap: 10px;
         }
+        header {
+            position: relative;
+            height: 20vh;
+        }
 
-        .box {
-            border: 2px dashed transparent;
+        header img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        article img {
+            border: 2px solid red;
+            width: 30vw;
+            float: right;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
         }
     </style>
 
@@ -200,19 +219,38 @@
 
 <body>
     <header>
-        ctrl + / (or "?") "hides" or "shows" code for the computer. This text is not "visible" to the chrome browser and so it is
-        "running this" text and "painting" it in the browser.
-    </header>
+        <p>ctrl + / (or "?") "hides" or "shows" code for the computer. This text is not "visible" to the browser and so it is
+            "painting" this text in the browser. </p>
 
+        <img src="https://dl.dropbox.com/s/kt7rrxfz2cb3jfv/newcanaannews.svg?dl=0" alt="newspaper banner">
+
+    </header>
+    <!-- <h1>Short Titles go inside h1 tags. H1s are for Titles of things. (Now, replace ALL OF this text with These words "Dog Couple Enjoys Breakfast Every Morning")</h1> -->
+    <h1>New Canaan Dog Couple Never Skips Breakfast</h1>
     <article>
-        This is where an article title goes Yesterday, in Norwalk a
+        <!-- Ollie and Lucy have been together for 8 years and they have breakfast together every morning. They take turns cooking and cleaning each day. Their favorite meals are: big bones, small bones, treats, biscuts, crackers, strawberries, bananas, pancakes, eggs, cereal, cheerios, apple pies, big macs, chicken mcnuggets, barbeque, chinese food, japanese food, my mom's foood, school lunches, school dinners, school snacks, school breakfasts, popcorn, grass, mom's shoes, chew toys, lobster, crab, corn-on-the-cob, toast, bacon, spaghetti, plain-pizza, sausage pizza, pineapple pizza, pepperoni pizza and cat-food. -->
+        <img src="https://dl.dropbox.com/s/2jw60z44wg6m933/dog-couple.gif?dl=0" alt="dogs eating breakfast" />
+        <p>Ollie and Lucy have been together for 8 years and they have breakfast together every morning. They take turns cooking
+            and cleaning each day. Their favorite meals are: big bones, small bones, treats, biscuts, crackers, strawberries,
+            bananas, pancakes, eggs, cereal, cheerios, apple pies, big macs, chicken mcnuggets, barbeque, chinese food, japanese
+            food, my mom's foood, school lunches, school dinners, school snacks, school breakfasts, popcorn, grass, mom's
+            shoes, chew toys, lobster, crab, corn-on-the-cob, toast, bacon, spaghetti, plain-pizza, sausage pizza, pineapple
+            pizza, pepperoni pizza and cat-food. They also love to eat Pie soufflé tiramisu halvah dessert tootsie roll cake
+            bear claw ice cream. Macaroon biscuit jujubes cookie jujubes halvah. Jelly sweet roll cupcake. Biscuit tiramisu
+            icing cake soufflé caramels. Donut cake marzipan carrot cake croissant sweet. Chupa chups candy canes bear claw
+            sesame snaps cookie marzipan apple pie macaroon sesame snaps. Cotton candy jelly beans pastry liquorice dessert.
+            Jujubes halvah pie icing gingerbread. Lollipop macaroon lollipop danish bear claw brownie cookie toffee sweet
+            roll. Topping donut cupcake chocolate bar. Gingerbread icing lollipop gingerbread sweet sweet marzipan. Pudding
+            brownie cake brownie jelly-o cotton candy powder. Cheesecake icing cupcake carrot cake.
+        </p>
     </article>
     <footer>
-        You guessed it! --A footer is always at the bottom of the page. It usually has icons for twitter, or facebook, etc etc.
+        You guessed it! --A "footer" is always at the bottom of the page. It usually has icons for twitter, or facebook, etc etc.
         <img src="https://dl.dropbox.com/s/4ld0vdexkf3e6k7/walkingman.gif?dl=0" />
-        <img src="https://dl.dropbox.com/s/crs49gmn84rrm49/gram_icon.png?dl=0" />
+        <img src="https://dl.dropbox.com/s/gsfn43m948m70qm/gram_icon.png?dl=0" />
         <img src="https://dl.dropbox.com/s/py31afonsiggf55/fbook.ico?dl=0" />
     </footer>
+
 </body>
 
 </html>
