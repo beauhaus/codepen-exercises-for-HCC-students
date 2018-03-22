@@ -1,0 +1,13 @@
+
+.container {
+    border-color: purple;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+img {
+    width: 40px;
+}
