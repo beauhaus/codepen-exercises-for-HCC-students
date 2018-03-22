@@ -1,17 +1,8 @@
-# codepen-exercises-for-HCC-students
-A collection of exercises for JS/CSS/HTML with codepen integration
-
-
-
-### I. HCC codepen template 
-
-*[link to pen](https://codepen.io/happycodeclub/pen/OvmjpV)*
-
 This code contains a template with animated menu for usability within codepen.
 
 Much of the code is "hidden" in the "Stuff for Head" section of the Settings in Codepen.
 
-There is a steps object in which yo`u may enter directions for students that will toggle (upon btn click) directly in the pen:
+There is a steps object in which you may enter directions for students that will toggle (upon btn click) directly in the pen:
 
 ```javascript
  /**********Directions TEXT**********/
