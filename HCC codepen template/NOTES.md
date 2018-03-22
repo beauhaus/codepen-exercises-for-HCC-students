@@ -17,3 +17,5 @@ var steps = {
 ```
 
 *(These steps are entered in the "Stuff for Head" box in codepen settings.)*
+
+![menu pic](../readmeImg/menuview.jpg "menu view")
