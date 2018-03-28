@@ -28,3 +28,19 @@ var steps = {
 *(These steps are entered in the "Stuff for Head" box in codepen settings.)*
 
 ![menu pic](./readmeImg/menuview.jpg "menu view")
+
+## Lesson I Webcode/Codepen Intro Exercise
+
+![webcode intro](./readmeImg/webintro.png "webcode intro")
+
+## Lesson II First styling Exercise
+
+![first styling ex](./readmeImg/firststyle.png "firststyle.png")
+
+## Lesson III Divider styling Exercise
+
+![div styling](./readmeImg/divstyle.png "divstyle.png")
+
+## Lesson VI My Ugly Website
+
+![ugly](./readmeImg/ugly.png "ugly.png")
