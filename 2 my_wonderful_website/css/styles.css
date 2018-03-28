@@ -1,0 +1,46 @@
+body {
+    background-color: grey;
+  }
+  
+  p {
+    margin-left: 40px;
+  }
+  
+  header  {
+    
+  }
+  
+  h1 {
+      margin-left: 20px;
+  /*     border: 4px solid skyblue; */
+  }
+  
+  article {
+      padding: 20px;
+  /*     border: 4px dashed orange; */
+  }
+  
+  article p {
+    font-size: 18px;
+    color: white;
+  }
+  
+  footer {
+      width: 100%;
+      text-align: center;
+  
+  }
+  footer img {
+      width: 40px;
+  
+  }
+  
+  /*****FURTHER DIRECTIONS**** (DON"T ERASE THIS) */
+  /* This page still looks ugly
+  Dont type any code yet, first just UNCOMMENT some of the lines of code above and see what happens to each part of the webpage */
+  
+  /* TRY TO... */
+  /* 1) delete all border styles */
+  /* 2) change background color in footer and header: */
+  /* background-color: black; */
+  
