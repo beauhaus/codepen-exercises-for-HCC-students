@@ -1,0 +1,65 @@
+#pig {
+  border: 1px solid black;
+}
+
+circle#face {
+    stroke: purple;
+    fill: pink;
+    stroke-width: 4px;
+}
+
+/* #pig path, #eye-shine-rt, #eye-shine-lt, .nostrils , #nose{
+      fill: transparent;
+    } */
+
+/***THIS CODE ENABLES SIMPLE INITIAL OUTLINES***/
+#faceShade1 {
+  /* stop-color: #ff7bac; */
+}
+#faceShade2 {
+  /* stop-color: #efabb7; */
+}
+
+/*  #nose {
+      transform-origin: 50% 50%;
+    } */
+
+/* #lt-ear {
+      fill: transparent;
+    }
+    #rt-ear {
+      fill: transparent;
+    } */
+
+#soundsBtn {
+  /* width: 10vw;
+  height: 4vh;
+  color: wheat;
+  z-index: 10;
+  position: absolute;
+  background: transparent;
+  border: 1px solid wheat;
+  padding: 0.5%;
+  top: 0;
+  right: 0;
+  text-align: center;
+  display: none; */
+}
+
+#soundsBtn:hover {
+  /* cursor: pointer; */
+}
+
+/*
+p {
+  position: absolute;
+  left: 5vw;
+  color: skyblue;
+  font-size: 18px;
+  z-index: 12;
+}
+p span {
+  color: grey;
+  background: rgba(3, 23, 135, 0.8);
+}
+*/
