@@ -3,16 +3,72 @@
 }
 
 circle#face {
-    stroke: purple;
-    fill: pink;
-    stroke-width: 4px;
+  stroke: purple;
+  fill: pink;
+  stroke-width: 4px;
 }
 
-/* #pig path, #eye-shine-rt, #eye-shine-lt, .nostrils , #nose{
-      fill: transparent;
-    } */
+#left-brow {
+  stroke: maroon;
+  stroke-width: 10;
+  fill: none;
+  /* display: none; */
+}
+#right-brow {
+  stroke: maroon;
+  stroke-width: 10;
+  fill: none;
+  /* display: none; */
+}
+#nose {
+  stroke: black;
+  stroke-width: 2px;
+}
+.ear {
+  stroke: black;
+  stroke-width: 2px;
+  /* fill: green; */
+}
+
+#lips {
+  fill: none;
+  stroke: black;
+  stroke-width: 16px;
+}
+
+
+
+#tongue {
+    stroke:rgb(255, 0, 0);
+    fill: olive;
+    stroke-width: 1px;
+    /* opacity: 0; */
+}
+
+#tongue-line {
+    fill:pink;
+    stroke:black;
+    /* opacity: 0; */
+}
+
+.nostrils {
+    /* fill:#FF7BAC; */
+    fill: blue;
+    /* stroke:black; */
+    stroke-width:3px;
+    /* opacity: 0; */
+}
+
+#eye-ball {
+    stroke:black;
+}
+
+#eye-shine {   
+    fill: white;
+}
 
 /***THIS CODE ENABLES SIMPLE INITIAL OUTLINES***/
+
 #faceShade1 {
   /* stop-color: #ff7bac; */
 }
