@@ -91,3 +91,44 @@ Lesson 4 collection
 Javascript Animation:
 Students, having been introduced to objects, will be able to use an if clause to trigger an animation. They will be creating and “drawing” balloons to the screen (in svg) and once they reach a certain number, the house will begin to fly -y values (up) & +x values (right). An <audio> html element will be triggered by a click event. They will be able to customize the speed and easings of the animation with numbers and javascript keywords used by the greensock.js animation library for vector graphics.
 Lesson 5 collection
+
+
+### Additional Procedures
+
+Each student at semester start will be given
+
+- a gmail account
+- a codepen account
+
+*(keeping in mind that username and user url can each be changed.)*
+
+Initial gmail & codepen naming convention will be thus:
+
+1. codepencoderXXX@gmail.com -- password happycode
+
+1. *(where X is an integer)*
+
+1. codepen username and url name will be the same
+
+1. They will all "follow" the codepen.io/happycodeclub account
+
+1. They will each have a "forked" lesson for the day before class start.
+
+1. Next, you must verify email address to enable full codepen functionality.
+
+
+
+ALL PASSWORDS MUST BE CHANGED BY STUDENTS UPON RECEIVING A NEW ACCOUNT
+
+--Happycode_2018
+
+----April Semester 3 students----
+
+## email registration
+
+![registration step 1](./readmeImg/registration1.png "registration step 1")
+
+## codepen registration
+
+![registration step 2](./readmeImg/registration2.png "registration step 2")
+
